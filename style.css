@@ -1,0 +1,116 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.flex-container{
+    display: flex;
+    background-color: rgb(241, 146, 146);
+    margin: 50px;
+    width: auto;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.card1{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;
+}
+.card2{
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;
+
+}
+.card3{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 20px;
+
+}
+.card4{
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+
+.login-container{
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+    height:100vh;
+    align-items: center;
+}
+.login-card{
+    width: 400px;
+    padding: 10px;
+    background-color: rgb(244, 162, 162);
+    text-align: center;
+    border-radius: 20px;
+    /* border: 2px solid red; */
+    /* margin: 20px auto; */
+
+}
+input{
+    padding: 16px;
+    width: 100%;
+    border: 2px solid blue;
+    border-radius: 12px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+.btn{
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    padding: 16px 35px;
+    border: none;
+    cursor: pointer;
+
+}
+.gray{
+    color: gray;
+
+}
+/* -------------nav bar css-------------- */
+.nav-container{
+    display: flex;
+    height:auto;
+    padding: 20px;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #89658E;
+    justify-content: space-between;
+    align-items: center;
+}
+.link-container{
+    display: flex;
+
+
+}
+.dot{
+    list-style-type:none;
+    
+}
+.name{
+    text-decoration: none;
+    font-size: 35px;
+    color: white;
+}
+.link{
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    font-size: 20px;
+
+    
+
+}
